@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.warriorssami.jarvis-meter",
+  "name": "Jarvis Meter",
+  "version": "2.0.0",
+  "author": "WarriorsSami",
+  "description": "Holographic system monitor: animated CPU/RAM/disk bar widget with a HUD popup for per-core history, processes, disk usage tree and network connections",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Jarvis Meter",
+    "description": "Animated CPU, RAM and disk usage with a holographic diagnostics popup",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
